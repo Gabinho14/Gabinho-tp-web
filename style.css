@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  color: #fff;
+}
+
+.game-container {
+  background: rgba(20, 20, 20, 0.9);
+  border: 2px solid #a00;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+.scene-title {
+  color: #e63946;
+  margin-bottom: 1rem;
+}
+
+.scene-text {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.choices-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn-choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  background: #222;
+  border: 1px solid #a00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn-choice:hover {
+  background: #a00;
+}
+
+/* Bouton secret */
+.secret-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #a00;
+  border-radius: 50%;
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+
+.secret-btn:hover {
+  opacity: 1;
+}
