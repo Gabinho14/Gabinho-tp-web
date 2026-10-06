@@ -7,11 +7,15 @@
 
 body {
   min-height: 100vh;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #111;
-  color: #fff;
+  background-color: #0a0a0a !important; /* Couleur sombre par défaut */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
 }
 
 .game-container {
@@ -76,4 +80,13 @@ body {
 
 .secret-btn:hover {
   opacity: 1;
+}
+
+/* Toutes les images de background */
+.bg-escalier {
+  background-image: url('assets/backgrounds/escalier.jpg');
+}
+
+.bg-parc {
+  background-image: url('assets/backgrounds/parc.jpg');
 }
