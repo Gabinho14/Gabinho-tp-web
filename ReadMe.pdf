@@ -1,0 +1,27 @@
+Zombie Survival — Jeu d'Aventure Interactif
+
+Bienvenue dans Zombie Survival, un jeu d'aventure textuel et interactif en HTML/CSS développé dans le cadre d'un projet d'évaluation Web.
+
+Synopsis
+La ville est placée sous quarantaine stricte suite à une épidémie d'infectés. Bloqué au cœur du chaos, vous devez faire les bons choix pour traverser la ville, échapper aux hordes et trouver un moyen de vous évader. Attention, la moindre erreur peut vous être fatale !
+
+Le jeu comporte 3 fins , dont 1 secrete qui se débloque en appuyant sur un bouton un peu dissimilé sur une des pages de choix. A vous de faire attention pour la trouver!
+
+## 🛠️ Structure du Projet
+
+Gabriel-tp-web/
+├── index.html              # Page d'accueil du jeu
+├── style.css               # Feuilles de styles principales (UI, positionnement, backgrounds)
+├── arbre-navigation.pdf    # Arborescence complète des choix et scènes
+├── README.md               # Documentation du projet
+├── assets/                 # Ressources multimédias
+│   ├── audio/              # Ambiance sonore et bruitages (.mp3)
+│   └── backgrounds/        # Images de fond pour chaque scène (.jpg)
+└── pages/                  # Scènes du jeu (14 pages au total)
+    ├── scene01.html à scene13.html
+    ├── victory.html        # Écran de victoire
+    └── fin-secrete.html    # Fin cachée du jeu
+
+Lancement du Jeu :
+
+Pour lancer le jeu , il suffit d'ouvrir la page index.html , qui est connecté avec les autres pages , permettant donc de jouer au jeu en ouvrant uniquement cette page.
