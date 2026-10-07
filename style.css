@@ -110,3 +110,7 @@ body {
 .bg-tunnel_routier {
   background-image: url('assets/backgrounds/tunnel_routier.jpg');
 }
+
+.bg-police {
+  background-image: url('assets/backgrounds/police.jpg');
+}
