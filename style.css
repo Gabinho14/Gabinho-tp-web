@@ -90,3 +90,23 @@ body {
 .bg-parc {
   background-image: url('assets/backgrounds/parc.jpg');
 }
+
+.bg-pont {
+  background-image: url('assets/backgrounds/pont.jpg');
+}
+
+.bg-ruelle {
+  background-image: url('assets/backgrounds/ruelle.jpg');
+}
+
+.bg-supermarché {
+  background-image: url('assets/backgrounds/supermarché.jpg');
+}
+
+.bg-toit {
+  background-image: url('assets/backgrounds/toit.jpg');
+}
+
+.bg-tunnel_routier {
+  background-image: url('assets/backgrounds/tunnel_routier.jpg');
+}
